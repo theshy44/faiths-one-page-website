@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  font-size: 28px;
+  background:  linear-gradient(to bottom,  #B20000, #8C0000 100%)
+  
+}
+
+.a href {
+    display: inline;
+    float: left;
+}
+
+.header {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: #999999;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+#navbar a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+  line-height: 50px;
+}
+
+.content {
+  padding: 16px;
+  font-family: 'Black Ops One', cursive;
+font-family: 'Monoton', cursive;
+font-family: 'Rye', cursive;
+font-family: 'Vast Shadow', cursive;
+ background: repeating-radial-gradient(pink, white 10% , pink 15% );
+font-size: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+h3 {
+font-family: 'Monoton', cursive;
+font-family: 'Black Ops One', cursive;
+}
+h2 {
+text-align: center;
+font-family: 'Monoton', cursive;
+font-family: 'Black Ops One', cursive;
+font-family: 'Rye', cursive;
+color:  #666666 ;
+background-color: grey;
+}
+
+h1 {
+text-align: center;
+font-family: 'Monoton', cursive;
+font-family: 'Black Ops One', cursive;
+font-family: 'Rye', cursive;
+color:  #666666 ;
+background-color: grey;
+}
+.log-img {
+  max-height: 100%;
+}
+
+.p0 {
+  padding: 0 !important;
+}
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #171717;
+   color: #d4d4d4;
+   text-align: center;
+   opacity: 1;
+}
+h4 {
+  color: purple;
+  font-family: 'Monoton', cursive;
+font-family: 'Black Ops One', cursive;
+text-align: center;
+}
+page {
+  background: white;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 0.5cm;
+  box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+}
+page[size="A3"] {
+  width: 33cm;
+  height: 42cm;
+}
+page[size="A3"][layout="portrait"] {
+  width: 42cm;
+  height: 29.7cm;  
+}
+
+
+@media print {
+  body, page {
+    margin: 0;
+    box-shadow: 0;
+  }
+}
